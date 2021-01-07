@@ -43,20 +43,25 @@ Create, change and start developing your richmedia units
 ❯ create a banner 
   edit a banner
 ```
+<br>
+<br>
 
 ```bash
 I'm seeing you did not setup your project yet
 ? Your project name (yo-test)
 ```
+<br>
 
 ```bash
 Creating banner
 ? Please fill in size of banner (300x250) 
 ```
+<br>
 
 ```bash
 ? Where do you want to put it? (./src/300x250/) 
 ```
+<br>
 
 ```bash
 ? Type of banner is this (Use arrow keys)
