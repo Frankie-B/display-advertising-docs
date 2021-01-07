@@ -23,7 +23,7 @@ _richmedia-temple generator for yemoan has been installed globally_
 ## Lets get started
 
 Its advisable when creating a new richmedia unit to first scaffold the initial project This will save you a lot of
-time and effort. More information on how to do this can be found [here](https://mediamonks.github.io/richmedia-temple-server/docs/creating-a-project.html).
+time and effort. More information on how to do this can be found [here](./creating-a-project.md).
 
 Lets run the richmedia-temple generator.
 
@@ -76,11 +76,12 @@ You now should see a few files in the directory that you executed the generator 
 | .prettierrc                  | A configuration file for prettier printer                                                                                                                  |
 | package.json                 | A configuration file for NPM / YARN, one of the most important files in your project.                                                                      |
 | node_modules                 | all the packages / libraries your project uses.                                                                                                            |
-| src/300x250/[.richmediarc](https://mediamonks.github.io/richmedia-temple-server/docs/richmediarc.html)   | The configuration file for the richmedia-temple-server, This file is used so that the richmedia-temple-server knows what directories are richmedia units.  |
+| src/300x250/[.richmediarc](./richmediarc.md)   | The configuration file for the richmedia-temple-server, This file is used so that the richmedia-temple-server knows what directories are richmedia units.  |
 | src/300x250/script/main.js   | Javascript File this is referenced by the .richmediarc file.                                                                                               |
 | src/300x250/script/Banner.js | The banner javascript code.                                                                                                                                |
 | src/300x250/index.html       | Main html file, this file is referenced by the .richmediarc file.                                                                                          |
 
 To start developing you need to run a server a webpack server. Setting up a webpack server is a bit of a hassle thats why the generator and the richmedia-temple-server do this for you in conjuction with the .richmediarc file.
 
-You should now go to the documentation of the [@mediamonks/richmedia-temple-server](https://mediamonks.github.io/richmedia-temple-server/) https://mediamonks.github.io/richmedia-temple-server/
+You should now go to the documentation of the [@mediamonks/richmedia-temple-server](./devserver.md) https://mediamonks.
+github.io/richmedia-temple-server/
