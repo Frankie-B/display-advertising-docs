@@ -11,7 +11,7 @@ First lets setup everything, for that please go to the [documentation](./generat
 
 Then follow documentation down here.
 
-- [Getting Started](./docs/getting-started.md)
+- [Getting Started](./getting-started.md)
 - [Creating a new project](./creating-a-project.md)
 - [.richmediarc](./richmediarc.md)
 - [.richmediarc features](./richmediarc-features.md)
