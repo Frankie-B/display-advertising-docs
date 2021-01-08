@@ -11,12 +11,12 @@ title: Getting Started
 	- [Basic .richmediarc concepts](#basic-.richmediarc-concepts)
 	- [Advanced .richmediarc concepts](#advanced-.richmediarc-concepts)
 	- [Google Sheets](#google-sheets)
-- [Running a development server locally](#running-a-development-server-locally)
+- [Running a development server locally](./running-building-uploading.md)
 - [Build and upload your preview](#build-and-upload-your-preview)
 	- [Build](#build)
 	- [Upload](#upload)
-- [Types of banners](#types-of-banners)
-- [Package.json](#package.json)
+- [Types of banners](banner-types.md)
+- [Package.json](./package-json.md)
 
 ## Let's get started!
 
