@@ -167,7 +167,7 @@ It will automatically generate a unique hash value as the directory name of the 
 
 It will then upload the contents of the ./build/ directory and show you a link to the preview, which should look something like this:
 
->http://richmedia-previews-s3bucket-khpmpnjb2dya.s3.amazonaws.com/3334d7e2-3d58-4c84-aec7-4b6d4f50c7f0/index.html
+> http://richmedia-previews-s3bucket-khpmpnjb2dya.s3.amazonaws.com/3334d7e2-3d58-4c84-aec7-4b6d4f50c7f0/index.html
 
 
 [Go back](./getting-started.md)

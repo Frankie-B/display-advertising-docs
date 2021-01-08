@@ -39,22 +39,22 @@ npm run preview
 
 and so on.
 
-##dev
+## dev
 Will compile your banners and start a preview server on localhost:8000 by default
 
->More info: [Running a dev server](./running-building-uploading.md)
+> More info: [Running a dev server](./running-building-uploading.md)
 
 
-##build
+## build
 Will compile your banners and place them in the /build directory as folders and zip files, ready for delivery.
 
->More info: [Build and upload your preview](./running-building-uploading.md)
+> More info: [Build and upload your preview](./running-building-uploading.md)
 
 
-##preview
+## preview
 Will upload your banners to a preview. The first time you run this command, you will have to configure the settings.
 
->More info: [Build and upload your preview](./running-building-uploading.md)
+> More info: [Build and upload your preview](./running-building-uploading.md)
 
 
 
