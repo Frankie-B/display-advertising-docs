@@ -1,4 +1,7 @@
-#Package.json
+---
+layout: page
+title: Package.json
+---
 
 Below you will find the contents of the package.json file which gets generated in the root folder when you start a new project with the generator:
 
