@@ -1,5 +1,7 @@
-#Types of banners
-
+---
+layout: page
+title: Types of banners
+---
 ##Plain
 Template for standard IAB banners with a regular ‘clickTag’.
 
