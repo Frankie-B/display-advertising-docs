@@ -59,12 +59,13 @@ You’ll have to give it a unique name, for example “selection”.
 Now you will be able to run a dev server with the same selection simply by running
 
 
->Important: You don’t have to restart the server if you make any changes to your banner’s code. It will automatically recompile your units when it detects changes in the source code.
+> Important: You don’t have to restart the server if you make any changes to your banner’s code. It will 
+> automatically recompile your units when it detects changes in the source code.
 
 
-##Build and upload your preview
+## Build and upload your preview
 
-###Build
+### Build
 
 To run the build script, you can run “npm run build” in your terminal or console.
 “build” is actually a script which is found in package.json, which in turn runs the command rds-build. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.  You’ll see something like this:
@@ -104,7 +105,7 @@ You’ll have to give it a unique name, for example “selection”. Now you wil
 
 It will now compile the banners you selected and then move these files to the ./build directory, along with zipped files which you can use for delivering files or uploading to certain previews.
 
-###Upload
+### Upload
 
 Uploading your banners to a preview can be done in a number of ways.
 
@@ -138,7 +139,7 @@ Below are guides for uploading to an Amazon S3 bucket.
 FYI MediaMonks Preview and Amazon S3 do practically the same thing.
 
 
-####MediaMonks Preview
+#### MediaMonks Preview
 
 This will upload the entire build folder to a S3 bucket. When you select this, you’ll have to enter a few things:
 
