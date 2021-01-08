@@ -234,4 +234,4 @@ This method is very useful and scalable, should the need arise to add even more 
 
 > **_Important:_** The Google sheet access needs to be set to public in order for this to work 
 
-[Go back](./creating-a-project.md    )
+[Go back](./creating-a-project.md)
