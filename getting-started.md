@@ -7,10 +7,7 @@ title: Getting Started
 
 - [Installation](#installations)
 - [Creating a new project](./creating-a-project.md)
-- [.richmediarc](#richmediarc)
-	- [Basic .richmediarc concepts](#basic-.richmediarc-concepts)
-	- [Advanced .richmediarc concepts](#advanced-.richmediarc-concepts)
-	- [Google Sheets](#google-sheets)
+- [.richmediarc](./richmediarc.md)
 - [Running a development server locally](./running-building-uploading.md)
 - [Types of banners](banner-types.md)
 - [Package.json](./package-json.md)

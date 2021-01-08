@@ -105,17 +105,16 @@ lets look at `../parent.richmediarc`
 
 ```
 {
-    "settings":{
-        "size": {
-          "width": 300, 
-          "height": 600
-        }
-    },
-
-    "content":{
-       "bgcolor": "#FF0000", 
-       "logo": "./banner/img/logo.png" // all paths are relative the .richmediarc file.
+  "settings":{
+    "size": {
+      "width": 300, 
+      "height": 600
     }
+  },
+    "content":{
+      "bgcolor": "#FF0000", 
+      "logo": "./banner/img/logo.png" // all paths are relative the .richmediarc file.
+  }
 }
 ```
 

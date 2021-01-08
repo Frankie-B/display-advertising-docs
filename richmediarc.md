@@ -39,10 +39,10 @@ Size and height should already be set to the correct values based on the selecti
 
 This file is parsed when you run “npm run dev”. Webpack grabs the values from this file and hardcodes them into the compiled creative which you see in the preview.
 
-It’s possible to make changes to this file while the preview [server](#localserver.md) is running.
+It’s possible to make changes to this file while the preview [server](./running-building-uploading.md) is running.
 
 > **_Note:_** In older versions of generator-richmedia-temple changes made to the .richmediarc file require stopping 
-> and restarting the dev server**
+> and restarting the dev server**                               
 
 Go ahead and change content.bgcolor to something else and save the file. In the terminal, you’ll see the creative getting recompiled. Once done, you can refresh the preview page and see the changes you made reflected in the preview unit.
 
@@ -72,9 +72,7 @@ In index.html:
 
 ```html
 <body>
-
-<div class="cta" data-bind="text: cta"></div>
-
+  <div class="cta" data-bind="text: cta"></div>
 </body>
 ``` 
 
@@ -92,9 +90,7 @@ In .richmediarc:
 In index.html:
 ```html
 <body>
-
-<img class="background-image" data-bind="src: bg-img-url"></div>
-
+  <img class="background-image" data-bind="src: bg-img-url"></div>
 </body>
 ```  
 
@@ -119,7 +115,7 @@ In .richmediarc:
 In style.css:
 ```css
 body {
-	background-color: var(--content-bgcolor);
+  background-color: var(--content-bgcolor);
 }
 ``` 
 
@@ -128,20 +124,17 @@ and
 In .richmediarc:
 ```
 "settings": {
-
 	"size": {
-
-		"width": 300,
-
-		"height": 250
+    "width": 300,
+    "height": 250
   }
 }
 ```
 In style.css:
 ```css
 .banner {
-	width: var(--settings-size-width)px;
-	height: var(--settings-size-height)px;
+  width: var(--settings-size-width)px;
+  height: var(--settings-size-height)px;
 }
 ```
 ### Using .richmediarc values in javascript
@@ -166,21 +159,19 @@ In .richmediarc:
 ```
 "content": {
 ...
-	"intro": false
+  "intro": false
 ...
 }
 ```  
 In Animation.js:
 ```js
 export default class Animation {
-
-constructor(container, config) {
-
-	if (config.content.intro) {
-	// play intro
-	} else {
-	// play main animation
-	}
+  constructor(container, config) {
+    if (config.content.intro) {
+      // play intro
+    } else {
+      // play main animation
+    }
   }
 }
 ```
@@ -208,51 +199,39 @@ Example
 .richmediarc.en (parent file):
 ```
 {
-
-"settings": {
-
-	"type": "plain",
-
-	"entry": {
-
-		"js": "./script/main.js",
-
-		"html": "./index.html"
+  "settings": {
+  "type": "plain",
+  "entry": {
+    "js": "./script/main.js",
+    "html": "./index.html"
 },
-	"size": {
-
-		"width": 300,
-
-		"height": 250
-	}
+  "size": {
+    "width": 300,
+    "height": 250
+  }
 },
-	"content": {
-
-		"text": "Welcome!",
-
-		"cta": "Click here",
-
-		"bgcolor": "#FF0000"
-
-		"bgimg": "./img/bgimage.jpg"
-	}
+  "content": {
+    "text": "Welcome!",
+    "cta": "Click here",
+    "bgcolor": "#FF0000"
+    "bgimg": "./img/bgimage.jpg"
+  }
 }
 ```
 .richmediarc.fr (child file):
 ```
 {
-	"parent": "./richmediarc.en",
-
-	"content": {
-
-		"text": "Bienvenue!",
-
-		"cta": "Cliquez Ici"
-	}
+  "parent": "./richmediarc.en",
+  "content": {
+    "text": "Bienvenue!",
+     "cta": "Cliquez Ici"
+  }
 }
 ```
 As shown in the example above, in the French .richmediarc, we only specify the parent file, and the new values for text and cta. Everything else is inherited from the parent file.
 
-This method is very useful and scalable, should the need arise to add even more languages or versions.  
+This method is very useful and scalable, should the need arise to add even more languages or versions.
 
-[Go back](./creating-a-project.md)
+> **_Important:_** The Google sheet need to be set to public in order for this to work 
+
+[Go back](./creating-a-project.md    )
