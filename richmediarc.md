@@ -232,6 +232,6 @@ As shown in the example above, in the French .richmediarc, we only specify the p
 
 This method is very useful and scalable, should the need arise to add even more languages or versions.
 
-> **_Important:_** The Google sheet need to be set to public in order for this to work 
+> **_Important:_** The Google sheet access needs to be set to public in order for this to work 
 
 [Go back](./creating-a-project.md    )
