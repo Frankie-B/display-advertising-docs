@@ -22,23 +22,24 @@ Software required
 
 -   Terminal i.e Windows Powershell, iTerm (Mac OS) etc
 
--   Code editor, i.e. [VSCode](https://code.visualstudio.com/), [Webstorm](https://www.jetbrains.com/webstorm/) etc
+-   Code editor, i.e. <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>,
+    <a href="https://www.jetbrains.com/webstorm/" target="_blank">Webstorm</a> etc
 
--   [NodeJS](https://nodejs.org/en/) V12 or higher
+-   <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> V12 or higher
 
 Now, open a terminal and do the following:
 
-### Step 1 
+### Step 1
 
-install [Yeoman](https://yeoman.io/) globally
+install <a href="https://yeoman.io/" target="_blank">Yeoman</a> globally
 
 $ `npm install -g yo`
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608809628/MM_Temple_Server_docs/Screenshot_yoeman_install.png" />
-</div>  
+</div>
 
-### Step 2 
+### Step 2
 
 Install Media Monks generator globally
 
@@ -46,7 +47,7 @@ $ `npm install -g generator-richmedia-temple`
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608809983/MM_Temple_Server_docs/Screenshot_install_generator.png" />
-</div>   
+</div>
 
 Verify Yeoman is working globally by running the following command
 

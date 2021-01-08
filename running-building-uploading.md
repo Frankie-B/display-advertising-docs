@@ -8,7 +8,7 @@ To start the dev server, type the following command in your terminal or console.
 npm run dev
 ```
 
-“Dev” is actually a script which is found in package.json, which in turn runs the command rds-dev. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.  You’ll see something like this:
+**“Dev”** is actually a script which is found in package.json, which in turn runs the command rds-dev. After you execute this script, it will start searching for .richmediarc files in all the directories and subdirectories of your project.  You’ll see something like this:
 
 ```
 i Searching for configs
@@ -22,7 +22,7 @@ i Searching for configs
  ( ) ./src/970x250/.richmediarc
 ```
 
-Here, you can select which units you wish to preview. Navigate with arrow keys and select (it’s possible to select multiple values) with spacebar, then press enter to confirm your selection.
+Here, you can select which units you wish to preview. Navigate with arrow keys and select (it’s possible to select multiple values) with spacebar, then press **enter** to confirm your selection.
 
 
 ```
@@ -34,7 +34,7 @@ You can select whether or not to open a new browser window.
 ? save this as a separate part command in package.json (y/N)
 ```
 
-Use this option to save your selection as a separate command. If you select y, you’ll see something like this:
+Use this option to save your selection as a separate command. If you select **y**, you’ll see something like this:
 
 ````
 ? please provide a name for your command. You will type something like npm run dev:__NAME__
@@ -59,7 +59,7 @@ You’ll have to give it a unique name, for example “selection”.
 Now you will be able to run a dev server with the same selection simply by running
 
 
-> Important: You don’t have to restart the server if you make any changes to your banner’s code. It will 
+> Important: You don’t have to restart the server if you make any changes to your banner’s code. It will
 > automatically recompile your units when it detects changes in the source code.
 
 
@@ -90,7 +90,7 @@ Here, you can select which units you wish to build. Navigate with arrow keys and
 ? save this as a separate command in package.json (y/N)
 ```
 
-Use this option to save your selection as a separate command. If you select y, you’ll see something like this:
+Use this option to save your selection as a separate command. If you select **y**, you’ll see something like this:
 
 ```
 ? please provide a name for your command. You will type something like npm run build:__NAME__
@@ -122,7 +122,7 @@ Welcome to HENK (transport service)
 ? No .henkrc as added to the .gitignore, should i add it? (Y/n)
 ```
 
-Press Y. You’ll see the following options
+Press **Y**. You’ll see the following options
 
 ```
 ? Where do you want to upload? (Use arrow keys)
@@ -148,9 +148,9 @@ This will upload the entire build folder to a S3 bucket. When you select this, y
 ```
 
 Just enter
-```
+`
 build
-```
+`
 here by default.
 
 ```
@@ -164,7 +164,7 @@ These values you can find in the pinned messages of our ‘wfh-aas-dev’ Slack 
 ? outputDir: (3334d7e2-3d58-4c84-aec7-4b6d4f50c7f0/)
 ```
 
-It will automatically generate a unique hash value as the directory name of the preview. Just press enter or add your own value and then press enter.
+It will automatically generate a unique hash value as the directory name of the preview. Just press **enter** or add your own value and then press enter.
 
 It will then upload the contents of the ./build/ directory and show you a link to the preview, which should look something like this:
 

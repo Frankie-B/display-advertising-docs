@@ -14,7 +14,7 @@ $ `yo richmedia-temple`
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608810960/MM_Temple_Server_docs/Screenshot_install_richmedia_scaffold.png" />
-</div>  
+</div>
 
 If this is the first time you’re running this command, Yeoman will ask you the following:
 
@@ -32,7 +32,7 @@ After you make your selection, the following menu appears
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608811575/MM_Temple_Server_docs/Screenshot_richmedia-welcome.png" />
-</div> 
+</div>
 
 In this menu you can use the arrow keys to navigate the cursor.
 
@@ -56,12 +56,12 @@ when ready.
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608812165/MM_Temple_Server_docs/Screenshot_select-unit-size.png" />
-</div> 
+</div>
 
 Enter the directory where you wish the source files to be placed. Just hit enter to use the default, which is something like “./src/{size}x{width}”
 
 
-Select the type of banner (refer to [types of banners](#types-of-banners) for more info)
+Select the type of banner (refer to [types of banners](./banner-types.md) for more info)
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608812407/MM_Temple_Server_docs/Screenshot_banner-type.png" />
@@ -103,22 +103,22 @@ When it’s done, you’ll end up with a directory looking something like this
 
 .prettierrc
 
-package.json ([more info](https://docs.google.com/document/d/18yvVCWTs0-tUXli90fnnok4tv4JzQVo3DLaQRDtSlIY/edit#heading=h.uqdkj8lreb37))
+[package.json](./package-json.md)
 
 package-lock.json
 
-### Step 4 
+### Step 4
 
 Make sure everything works by running
 
-$ `npm run dev` ([more info](https://docs.google.com/document/d/18yvVCWTs0-tUXli90fnnok4tv4JzQVo3DLaQRDtSlIY/edit#heading=h.pbe720401c8i))
+$ `npm run dev`([more info](./running-building-uploading.md))
 
 This will start the server. You’ll see something like
 
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608814774/MM_Temple_Server_docs/Screenshot_run_dev_server.png" />
-</div> 
+</div>
 
 Press **N**
 
@@ -132,13 +132,13 @@ In your terminal, you’ll be able to see the output of webpack, compiling the s
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608815327/MM_Temple_Server_docs/Screenshot_webpack-compiling.png" />
-</div>  
+</div>
 
 In your browser, the preview environment will load along with a preview of the compiled version of the banner you just created. The banner should display as a simple unit with a red background.
 
 <div style="display: flex; justify-content: center">
 <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608815492/MM_Temple_Server_docs/Screenshot_banner-browser.png" />
-</div> 
+</div>
 
 If there are no javascript errors and everything works fine, that’s it!
 
