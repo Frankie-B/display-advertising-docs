@@ -2,17 +2,17 @@
 layout: page
 title: Types of banners
 ---
-##Plain
+## Plain
 Template for standard IAB banners with a regular ‘clickTag’.
 
-##DoubleClick
+## DoubleClick
 Template for banners which are uploaded to DoubleClick Studio.
 
-##Dynamic
+## Dynamic
 
 >Needs description
 
-##Plain with VueJS
+## Plain with VueJS
 
 >Needs description
 
