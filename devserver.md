@@ -12,8 +12,10 @@ Once you have setup the generator you can move on to the below documentation to 
 advertising units.
 
 - [Getting Started](./getting-started.md)
-- [Adjusting a banner](./adjusting-a-banner.md)  
+- [Adjusting a banner](./adjusting-a-banner.md)
 - [.richmediarc](./richmediarc.md)
+- [Temple server - run, build and upload](./running-building-uploading.md)
+
 
 ### What is the richmedia temple server?
 To explain this as fast as possible, the _**RTS**_ (richmedia temple server) is a build and development server to 

@@ -372,11 +372,9 @@ You will see a second folder with the 300x600 in it.
 
 <div style="display: flex; justify-content: space-between; width: 38%; margin: 2rem 0">  
   <div>
-		<a href="https://mediamonks.github.io/display-advertising-docs/devserver/">Back to getting started</a>
+		<a href="https://mediamonks.github.io/display-advertising-docs/getting-started/">Back</a>
   </div>
   <div>
 		<a href="#contents">Back to the top</a>
   </div>  
 </div>
-
-[back to Temple Server](./devserver.md)
