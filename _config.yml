@@ -18,8 +18,8 @@ navbar-links:
      - Lets get started: "generator"
   Dev Server: 
      - Lets get started: "devserver"
-#   Resources:
-#     - Beautiful Jekyll: "https://beautifuljekyll.com"
+   Posts:
+     - Blog posts: "/posts/index.html"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
 
