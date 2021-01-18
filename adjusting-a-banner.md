@@ -19,7 +19,7 @@ title: Adjust a Banner step by step
 - [Changing the width and height](#changing-the-width-and-height)
 - [Creating a new build](#creating-a-new-build)
 
-So you get source files from an existing project or you have just finished [creating a new project](./creating-a-project.md) 
+So you get source files from an existing project or you have just finished [creating a new project](getting-started.md) 
 and you want to make changes to it, but you have never worked with the framework before, what do you do?
 
 > If you just want to get started and didn't receive any delivered files [here](https://github.com/mediamonks/generator-richmedia-temple/blob/gh-pages/assets/example_banner.zip) 
@@ -370,7 +370,7 @@ You will see a second folder with the 300x600 in it.
 
 <div style="display: flex; justify-content: space-between; width: 38%; margin: 2rem 0">  
   <div>
-		<a href="./index.html">Back to main page</a>
+		<a href="./generator.md">Back to getting started</a>
   </div>
   <div>
 		<a href="#contents">Back to the top</a>

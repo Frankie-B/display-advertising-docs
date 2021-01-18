@@ -3,7 +3,56 @@ layout: page
 title: .richmediarc
 ---
 
-> **_.richmediarc has a few features that are quite handy you can read about them [here](./richmediarc-features.md)._**
+## .richmediarc features
+
+Below is a list of features found as part of the [.richmediarc](./richmediarc.md) format
+
+- [File paths are always relative](#file-paths-are-always-relative).
+- [Content node](content-node). Everything in this node will be added and parsed by webpack.
+- [Using .richmediarc values in HTML](#using-richmediarc-values-in-html). Everything you put in the `.richmediarc` is accessible in html.  
+- [Using .richmediarc values in CSS](#using-richmediarc-values-in-css). Everything you put in the `.richmediarc` is accessible in css.
+- [Using .richmediarc values in javascript](#using-richmediarc-values-in-javascript). Everything you put in the `.richmediarc` is accessible in JavaScript.  
+- [Inheritance](#inheritance). `.richmediarc` can inherit from other .richmediarc files.
+- [Feeds](#feeds). Linking dynamic data feeds via Google sheets to `.richmediarc`.
+
+## File paths are always relative.
+File paths defined in the .richmediarc are ALWAYS relative to the .richmediarc it self.
+
+## Content node
+
+So everything in this node will be added and parsed by webpack. So lets look at how a default .richmediarc looks like.
+
+```json
+{
+  "settings": {
+    "entry": {
+      "js": "./script/main.js", // required: points to the starting js file.
+      "html": "./index.html" // required: points to the main html file.
+    },
+    "size": {
+      "width": 300, // required: width of richmedia unit
+      "height": 600 // required: height of richmedia unit
+    }
+  },
+  "content": {  // not required: can put anything in here.
+    "bgcolor": "#FF0000", 
+    "logo": "./img/logo.png" // not required: will be picked up by webpack and png minified.
+  }
+}
+```
+
+So if you want to load this file later you can do this like this.
+
+```es6
+// you load the config like this. Why? because when accessing the config like this you 
+// will get the parsed version of the config and not just the json file. 
+import config from "richmediaconfig";
+
+img.src = config.content.logo;
+img.onload = () => {
+    document.body.appendChild(img);
+}
+```
 
 The .richmediarc file is one of the files that gets generated when you start a new project.
 
@@ -82,7 +131,7 @@ In .richmediarc:
 ```
 "content": {
 ...
-	"bg-img-url": "../shared/images/background_300x250.jpg"
+  "bg-img-url": "../shared/images/background_300x250.jpg"
 ...
 }
 ```
@@ -96,7 +145,7 @@ In index.html:
 
 ### Using .richmediarc values in CSS
 
-[In CSS](./richmediarc-features.md/#css-vars), you can retrieve these values as follows:
+In CSS, you can retrieve these values as follows:
 
 ```css
 var(--{node}-{childNode}-{childNode})
@@ -179,7 +228,7 @@ export default class Animation {
 
 Below are advanced techniques you can use in the .richmediarc file.
 
-### [Inheritance](./richmediarc-features.md/#inheritance)
+### Inheritance
 
 Sometimes you need to set up multiple .richmediarc files in the same creative. For example, when you’re working on a multilingual project and you want the English version to say “Click Here”, whereas the French version says ‘Cliquez Ici’.
 
@@ -232,6 +281,35 @@ As shown in the example above, in the French .richmediarc, we only specify the p
 
 This method is very useful and scalable, should the need arise to add even more languages or versions.
 
+## Feeds
+You are able to link to a google spreadsheet so you can build multiple units with one code base and one .richmediarc.
+
+```
+{
+  "settings": {
+    "entry": {
+      "js": "./script/main.js", // required: points to the starting js file.
+      "html": "./index.html" // required: points to the main html file.
+    },
+    "size": {
+      "width": 300, // required: width of richmedia unit
+      "height": 600 // required: height of richmedia unit
+    },
+    "contentSource":{
+      "url":"https://docs.google.com/spreadsheets/d/1cWkhMxC01WVFqWR616DyN7OPvtatD-ivguK9OSs_msg/edit?usp=sharing",
+      "apiKey": "API_KEY_PLACEHOLDER"
+    }
+  },
+  "content": {
+    "copy1": "This is the first copy",
+    "copy2": "This is the second copy",
+    "bgcolor": "#FF0000", 
+    "logo": "./img/logo.png"
+  }
+}
+```
+When you replaced API_KEY_PLACEHOLDER with your own api key <br><br> https://developers.google.com/sheets/api/guides/authorizing#APIKey
+
 > **_Important:_** The Google sheet access needs to be set to public in order for this to work 
 
-[Go back](./creating-a-project.md)
+[Go back](getting-started.md)
