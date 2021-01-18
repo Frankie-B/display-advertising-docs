@@ -43,7 +43,7 @@ So everything in this node will be added and parsed by webpack. So lets look at 
 
 So if you want to load this file later you can do this like this.
 
-```es6
+```JavaScript
 // you load the config like this. Why? because when accessing the config like this you 
 // will get the parsed version of the config and not just the json file. 
 import config from "richmediaconfig";
