@@ -43,7 +43,7 @@ So everything in this node will be added and parsed by webpack. So lets look at 
 
 So if you want to load this file later you can do this like this.
 
-```JavaScript
+```js
 // you load the config like this. Why? because when accessing the config like this you 
 // will get the parsed version of the config and not just the json file. 
 import config from "richmediaconfig";
@@ -312,4 +312,4 @@ When you replaced API_KEY_PLACEHOLDER with your own api key <br><br> https://dev
 
 > **_Important:_** The Google sheet access needs to be set to public in order for this to work 
 
-[Go back](getting-started.md)
+[Go back to Temple Server](./devserver.md)

@@ -152,4 +152,4 @@ In your browser, the preview environment will load along with a preview of the c
 
 If there are no javascript errors and everything works fine, that’s it!
 
-[Go back](./index.html)
+[Go back to Temple Server](./devserver.md)

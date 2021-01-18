@@ -378,3 +378,5 @@ You will see a second folder with the 300x600 in it.
 		<a href="#contents">Back to the top</a>
   </div>  
 </div>
+
+[back to Temple Server](./devserver.md)

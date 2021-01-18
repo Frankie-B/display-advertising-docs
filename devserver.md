@@ -14,7 +14,6 @@ advertising units.
 - [Getting Started](./getting-started.md)
 - [Adjusting a banner](./adjusting-a-banner.md)  
 - [.richmediarc](./richmediarc.md)
-- [.richmediarc features](./richmediarc-features.md)
 
 ### What is the richmedia temple server?
 To explain this as fast as possible, the _**RTS**_ (richmedia temple server) is a build and development server to 
@@ -29,4 +28,4 @@ able
 to link a feed to a richmedia unit so you can build hundreds of units without having to duplicate any code. Or be able to 
 read the data available in the richmediarc in the css file.
 
-[Go back to main page](./index.html)
+[Go back to home page](./index.html)
