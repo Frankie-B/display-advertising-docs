@@ -7,6 +7,7 @@ title: Getting Started
 
 - [Installation](#installations)
 - [Creating a new project](./creating-a-project.md)
+- [Adjust a banner step by step](./adjusting-a-banner.md)  
 - [.richmediarc](./richmediarc.md)
 - [Running a development server locally](./running-building-uploading.md)
 - [Types of banners](banner-types.md)
@@ -14,7 +15,7 @@ title: Getting Started
 
 ## Let's get started!
 
-First lets setup everything, for that please go to the [documentation](./generator.md) from the generator. [Here](./generator.md)
+First lets setup everything, for that please go to the [documentation](./generator.md) from the [generator](./generator.md)
 
 ## Installation
 

@@ -43,25 +43,23 @@ Create, change and start developing your richmedia units
 ❯ create a banner 
   edit a banner
 ```
-<br>
-<br>
 
 ```bash
 I'm seeing you did not setup your project yet
 ? Your project name (yo-test)
 ```
-<br>
+
 
 ```bash
 Creating banner
 ? Please fill in size of banner (300x250) 
 ```
-<br>
+
 
 ```bash
 ? Where do you want to put it? (./src/300x250/) 
 ```
-<br>
+
 
 ```bash
 ? Type of banner is this (Use arrow keys)
@@ -88,5 +86,4 @@ You now should see a few files in the directory that you executed the generator 
 
 To start developing you need to run a server a webpack server. Setting up a webpack server is a bit of a hassle thats why the generator and the richmedia-temple-server do this for you in conjuction with the .richmediarc file.
 
-You should now go to the documentation of the [@mediamonks/richmedia-temple-server](./devserver.md) https://mediamonks.
-github.io/richmedia-temple-server/
+You should now go to the documentation of the [@mediamonks/richmedia-temple-server](./devserver.md)

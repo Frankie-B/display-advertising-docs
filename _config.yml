@@ -18,8 +18,8 @@ navbar-links:
      - Lets get started: "generator"
   Dev Server: 
      - Lets get started: "devserver"
-  Posts:
-     - Blog posts: "/posts/index.html"
+#  Posts:
+#     - Blog posts: "/posts/index.html"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
 
