@@ -235,12 +235,13 @@ $ `npm run build`
   
 If you have more than one size, it will ask you which files need to be build. Then it will ask you where to build the project.  
   
-> **_Note:_** The building of this project is done with webpack. Webpack will reduce the size of js code, images, svg files etc. And will also as specified combine a lot of js files into one.  
+> **_Note:_** The building of this project is done with webpack. Webpack will reduce the size of js code, images, svg files etc. And will also as specified combine a lot of js files into one.
+
 ```  
 ✔ One config found ./src/300x250/.richmediarc  
 ? Please choose build location (./build)
 ```  
-You can choose the default option by just pressing Enter, the build directory  
+_You can choose the default option by just pressing Enter, the build directory _ 
   
 ```  
 ? Please choose build location ./build  
@@ -254,7 +255,8 @@ Webpack: Starting ...
 Webpack: Finished after 3.962 seconds.
 ```  
 > **_Note:_** Project has been build. Now take a look in the build directory.  
-```
+
+
 <table style=" text-align:center; width:100%;">      
   <tr>      
     <th>Filename</th>      
@@ -277,7 +279,7 @@ Webpack: Finished after 3.962 seconds.
     <td>css file, those weird chars in the file name is the hash of the file it self.</td>    
   </tr>   
 </table>
-```  
+ 
 
 ## Creating a new size
 
@@ -370,7 +372,7 @@ You will see a second folder with the 300x600 in it.
 
 <div style="display: flex; justify-content: space-between; width: 38%; margin: 2rem 0">  
   <div>
-		<a href="./generator.md">Back to getting started</a>
+		<a href="https://mediamonks.github.io/display-advertising-docs/devserver/">Back to getting started</a>
   </div>
   <div>
 		<a href="#contents">Back to the top</a>
