@@ -47,7 +47,7 @@ $ `yo --version`
 _If it shows you the version number, you are ready continue to the next step [Creating a new project](getting-started.md)._
 
 <div class="page__navigation" style="display: flex; justify-content: space-between;">
-    <div class="pageNav__wrapper">
+    <div class="pageNav__wrapper prev">
         <a href="https://mediamonks.github.io/display-advertising-docs/" class="pageNav__item">
           <i class="fas fa-arrow-left" style="font-size: 2.5rem;"></i>
         </a>
@@ -55,7 +55,7 @@ _If it shows you the version number, you are ready continue to the next step [Cr
           <h3>Prev: Home Page</h3>
         </div>
     </div>
-    <div class="pageNav__wrapper">
+    <div class="pageNav__wrapper next">
         <a href="https://mediamonks.github.io/display-advertising-docs/generator/" class="pageNav__item">
           <i class="fas fa-arrow-right" style="font-size: 2.5rem;"></i>
         </a>

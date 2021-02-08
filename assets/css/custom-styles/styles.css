@@ -16,3 +16,9 @@
 .pageNav__title {
     width: 100%;
 }
+
+.pageNav__wrapper.prev {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
