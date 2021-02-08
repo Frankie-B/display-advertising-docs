@@ -47,7 +47,7 @@ $ `yo --version`
 _If it shows you the version number, you are ready continue to the next step [Creating a new project](getting-started.md)._
 
 <div class="page__navigation" style="display: flex; justify-content: space-between;">
-    <div class="pageNav__wrapper prev">
+    <div class="pageNav__wrapper prev" style="display: flex; flex-direction: column; align-items: flex-start">
         <a href="https://mediamonks.github.io/display-advertising-docs/" class="pageNav__item">
           <i class="fas fa-arrow-left" style="font-size: 2.5rem;"></i>
         </a>
