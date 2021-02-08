@@ -51,7 +51,7 @@ _If it shows you the version number, you are ready continue to the next step [Cr
         <a href="https://mediamonks.github.io/display-advertising-docs/" class="pageNav__item">
           <i class="fas fa-arrow-left" style="font-size: 2.5rem;"></i>
         </a>
-        <div class="pageNav__title" style="width: 68%;">
+        <div class="pageNav__title" style="width: 100%%;">
           <h3>Prev: Home Page</h3>
         </div>
     </div>
@@ -59,7 +59,7 @@ _If it shows you the version number, you are ready continue to the next step [Cr
         <a href="https://mediamonks.github.io/display-advertising-docs/generator/" class="pageNav__item">
           <i class="fas fa-arrow-right" style="font-size: 2.5rem;"></i>
         </a>
-        <div class="pageNav__title" style="width: 66%;">
+        <div class="pageNav__title" style="width: 100%;">
           <h3>Next: Generator for richmedia</h3>
         </div>
     </div>
