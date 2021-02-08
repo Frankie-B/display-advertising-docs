@@ -46,21 +46,20 @@ $ `yo --version`
 
 _If it shows you the version number, you are ready continue to the next step [Creating a new project](getting-started.md)._
 
-[back to main page](./index.html)
 <div class="page__navigation" style="display: flex; justify-content: space-between;">
-    <div class="pageNav__wrapper" style="display: flex; flex-direction: column; align-items: flex-start;">
-        <a href="https://mediamonks.github.io/display-advertising-docs/generator/" class="pageNav__item">
+    <div class="pageNav__wrapper">
+        <a href="https://mediamonks.github.io/display-advertising-docs/" class="pageNav__item">
           <i class="fas fa-arrow-left" style="font-size: 2.5rem;"></i>
         </a>
-        <div class="pageNav__title">
-          <h3>Next: Generator for richmedia</h3>
+        <div class="pageNav__title" style="width: 66%;">
+          <h3>Prev: Home Page</h3>
         </div>
     </div>
-    <div class="pageNav__wrapper" style="display: flex; flex-direction: column; align-items: flex-end;">
+    <div class="pageNav__wrapper">
         <a href="https://mediamonks.github.io/display-advertising-docs/generator/" class="pageNav__item">
           <i class="fas fa-arrow-right" style="font-size: 2.5rem;"></i>
         </a>
-        <div class="pageNav__title">
+        <div class="pageNav__title" style="width: 66%;">
           <h3>Next: Generator for richmedia</h3>
         </div>
     </div>
