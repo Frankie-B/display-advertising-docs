@@ -47,3 +47,21 @@ $ `yo --version`
 _If it shows you the version number, you are ready continue to the next step [Creating a new project](getting-started.md)._
 
 [back to main page](./index.html)
+<div class="page__navigation">
+    <div class="pageNav__wrapper">
+        <a href="https://mediamonks.github.io/display-advertising-docs/generator/" class="pageNav__item">
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <div class="pageNav__title">
+          <h3>Next: Generator for richmedia</h3>
+        </div>
+    </div>
+    <div class="pageNav__wrapper">
+        <a href="https://mediamonks.github.io/display-advertising-docs/generator/" class="pageNav__item">
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <div class="pageNav__title">
+          <h3>Next: Generator for richmedia</h3>
+        </div>
+    </div>
+</div>
