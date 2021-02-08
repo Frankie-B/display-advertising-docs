@@ -1,6 +1,8 @@
 /*Custom styles for Display Advertising Docs*/
 
-/*Home Page*/
+.page__navigation {
+    width: 100%;
+}
 .pageNav__wrapper {
     display: flex;
     flex-direction: column;
