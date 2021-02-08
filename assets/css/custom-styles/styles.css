@@ -1,1 +1,16 @@
 /*Custom styles for Display Advertising Docs*/
+
+/*Home Page*/
+.page__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pageNav__item > i {
+    font-size: 1.5rem;
+}
+
+.pageNav__title {
+    width: 80%;
+}
