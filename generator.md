@@ -52,7 +52,7 @@ _If it shows you the version number, you are ready continue to the next step [Cr
           <i class="fas fa-arrow-left" style="font-size: 2.5rem;"></i>
         </a>
         <div class="pageNav__title" style="width: 100%;">
-          <h3>Prev: Home Page</h3>
+          <h3 style="font-size: 1.2rem">Prev: Home Page</h3>
         </div>
     </div>
     <div class="pageNav__wrapper next">
@@ -60,7 +60,7 @@ _If it shows you the version number, you are ready continue to the next step [Cr
           <i class="fas fa-arrow-right" style="font-size: 2.5rem;"></i>
         </a>
         <div class="pageNav__title" style="width: 100%;">
-          <h3>Next: Generator for richmedia</h3>
+          <h3 style="font-size: 1.2rem">Next: Generator for richmedia</h3>
         </div>
     </div>
 </div>
