@@ -3,6 +3,7 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+@import "./custom-styles/styles.css"; /* Custom style done by Frankie*/
 
 /* --- General --- */
 
