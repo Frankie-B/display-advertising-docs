@@ -25,8 +25,9 @@ First install Yeoman globally
 $ `npm install -g yo`
 
 <div style="display: flex; justify-content: center">
-<img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608809628/MM_Temple_Server_docs/Screenshot_yoeman_install.png" />
+ <img src="assets/img/Screenshot_yoeman_install.png" />
 </div>
+
 
 ### Step 2
 
@@ -35,7 +36,7 @@ Install the Media Monks richmedia generator globally
 $ `npm install -g generator-richmedia-temple`
 
 <div style="display: flex; justify-content: center">
-<img src="./assets/img/screenshots/Screenshot_install_generator.png" />
+<img src="assets/img/Screenshot_install_generator.png" />
 </div>
 
 Verify Yeoman is working globally by running the following command
