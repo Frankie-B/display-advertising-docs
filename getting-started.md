@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Getting started
+subtitle: Creating a new project
 ---
 
 # Contents

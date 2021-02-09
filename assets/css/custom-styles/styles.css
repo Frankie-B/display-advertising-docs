@@ -17,3 +17,7 @@
     justify-self: flex-end;
     width: 49%;
 }
+
+.pageNav__title h3 {
+     font-size: 1.2rem;
+ }
