@@ -20,24 +20,30 @@ terminal / command prompt as `yo`
 
 **Open your terminal run the following commands:**
 
-First install Yeoman globally
-
 $ `npm install -g yo`
 
-<div style="display: flex; justify-content: center">
- <img src="assets/img/Screenshot_yoeman_install.png" />
-</div>
+![First install Yeoman globally](/assets/img/Screenshot_yoeman_install.png)
 
+[comment]: <> (<div style="display: flex; justify-content: center">)
+
+[comment]: <> (<img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608809628/MM_Temple_Server_docs/Screenshot_yoeman_install.png" />)
+
+[comment]: <> (</div>)
 
 ### Step 2
 
-Install the Media Monks richmedia generator globally
+
 
 $ `npm install -g generator-richmedia-temple`
 
-<div style="display: flex; justify-content: center">
-<img src="assets/img/Screenshot_install_generator.png" />
-</div>
+![Install the Media Monks richmedia generator globally](/assets/img/Screenshot_install_generator.png)
+
+
+[comment]: <> (<div style="display: flex; justify-content: center">)
+
+[comment]: <> (<img src="https://res.cloudinary.com/frankie-dev/image/upload/v1608809983/MM_Temple_Server_docs/Screenshot_install_generator.png" />)
+
+[comment]: <> (</div>)
 
 Verify Yeoman is working globally by running the following command
 
@@ -49,21 +55,40 @@ $ `yo --version`
 
 _If it shows you the version number, you are ready continue to the next step **Creating a new project**._
 
-<div class="page__navigation" style="display: flex; justify-content: space-between;">
-    <div class="pageNav__wrapper prev" style="display: flex; flex-direction: column; align-items: flex-start">
-        <a href="https://mediamonks.github.io/display-advertising-docs/" class="pageNav__item">
-          <i class="fas fa-arrow-left" style="font-size: 2.5rem;"></i>
-        </a>
-        <div class="pageNav__title" style="width: 100%;">
-          <h3 style="font-size: 1.2rem">Prev: Home Page</h3>
-        </div>
-    </div>
-    <div class="pageNav__wrapper next">
-        <a href="https://mediamonks.github.io/display-advertising-docs/getting-started/" class="pageNav__item">
-          <i class="fas fa-arrow-right" style="font-size: 2.5rem;"></i>
-        </a>
-        <div class="pageNav__title" style="width: 100%;">
-          <h3 style="font-size: 1.2rem">Next: Creating a new project</h3>
-        </div>
-    </div>
-</div>
+{{page.previous}}
+
+[comment]: <> (<div class="page__navigation" style="display: flex; justify-content: space-between;">)
+
+[comment]: <> (    <div class="pageNav__wrapper prev" style="display: flex; flex-direction: column; align-items: flex-start">)
+
+[comment]: <> (        <a href="https://mediamonks.github.io/display-advertising-docs/" class="pageNav__item">)
+
+[comment]: <> (          <i class="fas fa-arrow-left" style="font-size: 2.5rem;"></i>)
+
+[comment]: <> (        </a>)
+
+[comment]: <> (        <div class="pageNav__title" style="width: 100%;">)
+
+[comment]: <> (          <h3 style="font-size: 1.2rem">Prev: Home Page</h3>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (    </div>)
+
+[comment]: <> (    <div class="pageNav__wrapper next">)
+
+[comment]: <> (        <a href="https://mediamonks.github.io/display-advertising-docs/getting-started/" class="pageNav__item">)
+
+[comment]: <> (          <i class="fas fa-arrow-right" style="font-size: 2.5rem;"></i>)
+
+[comment]: <> (        </a>)
+
+[comment]: <> (        <div class="pageNav__title" style="width: 100%;">)
+
+[comment]: <> (          <h3 style="font-size: 1.2rem">Next: Creating a new project</h3>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (    </div>)
+
+[comment]: <> (</div>)

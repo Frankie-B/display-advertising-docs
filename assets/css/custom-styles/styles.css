@@ -5,17 +5,9 @@
 }
 .pageNav__wrapper {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
-}
-
-.pageNav__item > i {
-    font-size: 2.5rem;
-}
-
-.pageNav__title {
-    justify-self: flex-end;
     width: 49%;
+
 }
 
 .pageNav__title h3 {
