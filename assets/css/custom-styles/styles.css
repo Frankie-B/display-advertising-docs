@@ -1,21 +1,7 @@
 /*Custom styles for Display Advertising Docs*/
 
-.page__navigation {
-    width: 100%;
-}
-.pageNav__wrapper {
+.container {
     display: flex;
-    align-items: flex-end;
-    width: 49%;
-
-}
-
-.pageNav__title h3 {
-     font-size: 1.2rem;
- }
-
-.btn__pageNav {
-    border-radius: 20px;
-    height: 50px;
-    width: 100px;
+    justify-content: space-between;
+    width: 100%;
 }

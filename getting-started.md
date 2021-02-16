@@ -110,3 +110,14 @@ created. The banner should display as a simple unit with a red background.
 If there are no javascript errors and everything works fine, that’s it!
 
 [Prev: Richmedia generator](./generator.md)        [Next: Adjust a banner step by step](./generator.md)
+
+[comment]: <> (Note: I looked into how I could achieve the desired look but this is not something that can be achievd purely in )
+
+[comment]: <> (markdown syntax)
+
+<div class="container">
+<div class="link__item"><a href="./generator.md"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
+generator</a></div>
+<div class="link__item"><a href="./generator.md"><i class="fas fa-long-arrow-alt-right"></i>Adjust a banner 
+step by step</a></div>
+</div>
