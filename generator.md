@@ -42,4 +42,4 @@ $ `yo --version`
 
 _If it shows you the version number, you are ready continue to the next step **Creating a new project**._
 
-[Prev: Home Page](https://mediamonks.github.io/display-advertising-docs){: .btn__pageNav}
+[Prev: Home Page](https://mediamonks.github.io/display-advertising-docs)    [Next: Home Page](./getting-started.md)

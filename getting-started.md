@@ -4,14 +4,19 @@ title: Getting started
 subtitle: Creating a new project
 ---
 
-# Contents
+[comment]: <> (# Contents)
 
-- [Creating a new project](#creating-a-new-project)
-- [Adjust a banner step by step](./adjusting-a-banner.md)
-- [.richmediarc](./richmediarc.md)
-- [Running a development server locally](./running-building-uploading.md)
-- [Types of banners](banner-types.md)
-- [Package.json](./package-json.md)
+[comment]: <> (- [Creating a new project]&#40;#creating-a-new-project&#41;)
+
+[comment]: <> (- [Adjust a banner step by step]&#40;./adjusting-a-banner.md&#41;)
+
+[comment]: <> (- [.richmediarc]&#40;./richmediarc.md&#41;)
+
+[comment]: <> (- [Running a development server locally]&#40;./running-building-uploading.md&#41;)
+
+[comment]: <> (- [Types of banners]&#40;banner-types.md&#41;)
+
+[comment]: <> (- [Package.json]&#40;./package-json.md&#41;)
 
 ## Creating a new project
 
