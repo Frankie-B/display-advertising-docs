@@ -114,8 +114,8 @@ If there are no javascript errors and everything works fine, that’s it!
 [comment]: <> (markdown syntax)
 
 <div class="container">
-<div class="link__item"><a href="./generator.md"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
+<div class="link__item"><a href="{{'generator.md' | relative_url}}"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
 generator</a></div>
-<div class="link__item"><a href="./generator.md">Adjust a banner 
+<div class="link__item"><a href="{{'adjust-a-banner.md' | relative_url}}">Adjust a banner 
 step by step <i class="fas fa-long-arrow-alt-right"></i></a></div>
 </div>

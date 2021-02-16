@@ -370,11 +370,11 @@ You will see a second folder with the 300x600 in it.
  <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166574/MM_Temple_Server_docs/adjust-banners/change_size_new_unit.jpg" />
 </div>  
 
-<div style="display: flex; justify-content: space-between; width: 38%; margin: 2rem 0">  
-  <div>
-		<a href="https://mediamonks.github.io/display-advertising-docs/getting-started/">Back</a>
-  </div>
-  <div>
-		<a href="#contents">Back to the top</a>
-  </div>  
+
+
+<div class="container">
+<div class="link__item"><a href="{{'getting-started' | relative_url}}"><i class="fas fa-long-arrow-alt-left"></i> 
+Getting started</a></div>
+<div class="link__item"><a href="{{'richmediarc' | relative_url }}">.richmediarc <i class="fas 
+fa-long-arrow-alt-right"></i></a></div>
 </div>
