@@ -5,3 +5,7 @@
     justify-content: space-between;
     width: 100%;
 }
+
+.link__item.home {
+    justify-self: flex-end;
+}
