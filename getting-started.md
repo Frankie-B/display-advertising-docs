@@ -117,5 +117,5 @@ If there are no javascript errors and everything works fine, that’s it!
 <div class="link__item"><a href="./generator.md"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
 generator</a></div>
 <div class="link__item"><a href="./generator.md">Adjust a banner 
-step by step<i class="fas fa-long-arrow-alt-right"></i></a></div>
+step by step <i class="fas fa-long-arrow-alt-right"></i></a></div>
 </div>
