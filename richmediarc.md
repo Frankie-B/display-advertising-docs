@@ -2,23 +2,17 @@
 layout: page
 title: .richmediarc
 ---
+The .richmediarc file is one of the files that gets generated when you start a new project.
 
-## .richmediarc features
+You can find it in the root directory of your creative, i.e. /src/300x250.
 
-Below is a list of features found as part of the [.richmediarc](./richmediarc.md) format
+> _**Important:**_ Each creative requires at least one .richmediarc file
 
-- [File paths are always relative](#file-paths-are-always-relative).
-- [Content node](content-node). Everything in this node will be added and parsed by webpack.
-- [Using .richmediarc values in HTML](#using-richmediarc-values-in-html). Everything you put in the `.richmediarc` is accessible in html.  
-- [Using .richmediarc values in CSS](#using-richmediarc-values-in-css). Everything you put in the `.richmediarc` is accessible in css.
-- [Using .richmediarc values in javascript](#using-richmediarc-values-in-javascript). Everything you put in the `.richmediarc` is accessible in JavaScript.  
-- [Inheritance](#inheritance). `.richmediarc` can inherit from other .richmediarc files.
-- [Feeds](#feeds). Linking dynamic data feeds via Google sheets to `.richmediarc`.
+In a freshly generated project, the .richmediarc will look something like this
 
-## File paths are always relative.
-File paths defined in the .richmediarc are ALWAYS relative to the .richmediarc it self.
+> _**Important:**_ File paths defined in the .richmediarc are ALWAYS relative to the .richmediarc itself.
 
-## Content node
+## The content node
 
 So everything in this node will be added and parsed by webpack. So lets look at how a default .richmediarc looks like.
 
@@ -46,6 +40,7 @@ So if you want to load this file later you can do this like this.
 ```js
 // you load the config like this. Why? because when accessing the config like this you 
 // will get the parsed version of the config and not just the json file. 
+
 import config from "richmediaconfig";
 
 img.src = config.content.logo;
@@ -54,34 +49,9 @@ img.onload = () => {
 }
 ```
 
-The .richmediarc file is one of the files that gets generated when you start a new project.
+Why like this? `img.src = config.content.logo;` and not like `img.src = "./img/logo.png"` this is because the browser
+will not be able to find ./img/logo.png.
 
-You can find it in the root directory of your creative, i.e. /src/300x250.
-
-> **_Important:_** Each creative requires at least one .richmediarc file
-
-In a freshly generated project, the .richmediarc will look something like this
-
-```
-{  
-  "settings": {  
-    "type": "plain",  
-    "entry": {  
-      "js": "./script/main.js",  
-      "html": "./index.html"  
-    },  
-    "size": {  
-      "width": 300,  
-      "height": 250  
-    }  
-  },  
-  "content": {  
-    "text": "Welcome to this Banner!",  
-    "cta": "Click here",  
-    "bgcolor": "#FF0000"  
-  }  
-}
-```
 As you can see this file contains configuration settings for your creative, as well as key-value pairs which you can use for content, styling or even functionality.
 
 Size and height should already be set to the correct values based on the selection made during the generator process.
@@ -101,23 +71,21 @@ Below are some guides on how you can use these values in your creative.
 
 ### Using .richmediarc values in HTML
 
-In your index.html, you can retrieve .richmediarc values using the **data-bind** attribute on HTML elements. This is 
-made possible by the databind class which is imported by ./js/Banner.js.
-
-
+In your index.html, you can retrieve .richmediarc values using the `data-bind` attribute on HTML elements. This is 
+made possible by the databind class which is imported by `./js/Banner.js`.
 
 For example:
 
 In .richmediarc:
-```
+
+```json
 "content": {
 ...
 	"cta": "Click here!"
 }
-```  
+```
 
 In index.html:
-
 
 ```html
 <body>
@@ -128,7 +96,8 @@ In index.html:
 and
 
 In .richmediarc:
-```
+
+```json
 "content": {
 ...
   "bg-img-url": "../shared/images/background_300x250.jpg"
@@ -137,6 +106,7 @@ In .richmediarc:
 ```
 
 In index.html:
+
 ```html
 <body>
   <img class="background-image" data-bind="src: bg-img-url"></div>
@@ -145,7 +115,11 @@ In index.html:
 
 ### Using .richmediarc values in CSS
 
-In CSS, you can retrieve these values as follows:
+Everything you put in the `.richmediarc` is accessible in css.
+
+So the rich-media-temple-server (webpack) will add all the data from the config to the css through css vars.
+
+How would you access them? Well like this.
 
 ```css
 var(--{node}-{childNode}-{childNode})
@@ -154,7 +128,7 @@ var(--{node}-{childNode}-{childNode})
 For example:
 
 In .richmediarc:
-```
+```json
 "content": {
 ...
 	"bgcolor": "#FFFFFF"
@@ -171,7 +145,8 @@ body {
 and
 
 In .richmediarc:
-```
+
+```json
 "settings": {
 	"size": {
     "width": 300,
@@ -180,15 +155,17 @@ In .richmediarc:
 }
 ```
 In style.css:
+
 ```css
 .banner {
   width: var(--settings-size-width)px;
   height: var(--settings-size-height)px;
 }
 ```
+
 ### Using .richmediarc values in javascript
 
-The main javascript file (conveniently named ./js/main.js) imports the .richmediarc files as follows:
+The main javascript file (conveniently named `./js/main.js`) imports the .richmediarc files as follows:
 
 ```js
 import config from "richmediaconfig";
@@ -205,14 +182,16 @@ From there, you are able to retrieve pretty much every value from the .richmedia
 Example:
 
 In .richmediarc:
-```
+```json
 "content": {
 ...
   "intro": false
 ...
 }
 ```  
+
 In Animation.js:
+
 ```js
 export default class Animation {
   constructor(container, config) {
@@ -234,10 +213,9 @@ Sometimes you need to set up multiple .richmediarc files in the same creative. F
 
 In this case, the most elegant solution would be two .richmediarc files. For example:
 
-.richmediarc.en
+`.richmediarc.en`
 
-.richmediarc.fr
-
+`.richmediarc.fr`
 
 However, there will be a lot of overlap between these two files, if you’re only changing the copy - and not the background colors, the width height, the entry files, etc.
 
@@ -245,8 +223,9 @@ Our system supports inheritance of values, by providing a ‘parent’ file from
 
 Example
 
-.richmediarc.en (parent file):
-```
+.richmediarc.en **(parent file)**:
+
+```json
 {
   "settings": {
   "type": "plain",
@@ -267,8 +246,9 @@ Example
   }
 }
 ```
-.richmediarc.fr (child file):
-```
+.richmediarc.fr **(child file)**:
+
+```json
 {
   "parent": "./richmediarc.en",
   "content": {
@@ -282,9 +262,11 @@ As shown in the example above, in the French .richmediarc, we only specify the p
 This method is very useful and scalable, should the need arise to add even more languages or versions.
 
 ## Feeds
-You are able to link to a google spreadsheet so you can build multiple units with one code base and one .richmediarc.
+You are able to link to a Google spreadsheet, so you can build multiple units with one code base and one .richmediarc.
+When you replace API_KEY_PLACEHOLDER with your own api key <br><br> https://developers.google.com/sheets/api/guides/authorizing#APIKey
 
-```
+
+```json
 {
   "settings": {
     "entry": {
@@ -308,8 +290,16 @@ You are able to link to a google spreadsheet so you can build multiple units wit
   }
 }
 ```
-When you replaced API_KEY_PLACEHOLDER with your own api key <br><br> https://developers.google.com/sheets/api/guides/authorizing#APIKey
 
 > **_Important:_** The Google sheet access needs to be set to public in order for this to work 
 
-[Go back to Temple Server](./devserver.md)
+<div class="container">
+    <div class="link__item">
+        <a href="./adjusting-a-banner.html"><i
+        class="fas fa-long-arrow-alt-left"></i> Getting started</a>
+    </div>
+		<div class="link__item">
+        <a href="./richmediarc.html">.ricmediarc <i
+        class="fas fa-long-arrow-alt-right"></i></a>
+    </div>
+</div>

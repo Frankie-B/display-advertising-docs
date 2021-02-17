@@ -5,14 +5,14 @@ title: Adjust a Banner step by step
 So you get source files from an existing project or you have just finished [creating a new project](getting-started.md) 
 and you want to make changes to it, but you have never worked with the framework before, what do you do?
 
-> If you just want to get started and didn't receive any delivered files [here](https://github.com/mediamonks/generator-richmedia-temple/blob/gh-pages/assets/example_banner.zip) 
-are some example files to start with:
+[comment]: <> (If you just want to get started and didn't receive any delivered files [here]&#40;https://github.com/mediamonks/generator-richmedia-temple/blob/gh-pages/assets/example_banner.zip&#41; )
+
+[comment]: <> (are some example files to start with:)
 
 ## Installing packages
 
 First we need to install the packages that are needed to display/change and build the files. When you do this, the 
-Command Line Tool will display what will be installed. Make sure you are inside of your project directory. e.g 
-`/user/your_project_diretory/example_banner`
+Command Line Tool will display what will be installed. Make sure you are inside of your project directory. e.g `/user/your_project_diretory/example_banner`
 
 In your Command Line tool, having the path set to the unzipped folder type:
 
@@ -22,7 +22,8 @@ $ `npm install`
 
 And press `Enter`
 
-> **_NOTE:_** The installation can take a while and you might see some warnings e.g "Found 9 vulnerabilities" etc but that is something to not be worried about.**
+> **_NOTE:_** The installation can take a while, and you might see some warnings e.g "Found 9 vulnerabilities" etc 
+> but that is something to not be worried about.**
 
 ![Screenshot install warnings](./assets/img/npm-install-warnings.png)
 
@@ -317,7 +318,7 @@ You will see a second folder with the 300x600 in it.
 
 <div class="container">
     <div class="link__item">
-        <a href="./gettomg-started.html"><i
+        <a href="./getting-started.html"><i
         class="fas fa-long-arrow-alt-left"></i> Getting started</a>
     </div>
 		<div class="link__item">
