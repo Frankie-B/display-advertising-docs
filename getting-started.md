@@ -14,7 +14,7 @@ In the terminal, make your way to a new project folder of your choosing, e.g. _*
 
 $ `yo richmedia-temple`
 
-![Screenshot install generator](./assets/img/Screenshot_install_richmedia_scaffold.png)
+![Screenshot install grichmedia scaffold](./assets/img/Screenshot_install_richmedia_scaffold.png)
 
 If this is the first time you’re running this command, Yeoman will ask you the following:
 
@@ -30,7 +30,7 @@ Up to you if you want to send them statistics. Hit either **Y** or **N**.
 
 After you make your selection, the following menu appears
 
-![Screenshot install generator](./assets/img/Screenshot_richmedia-welcome.png)
+![Screenshot richmedia welcome](./assets/img/Screenshot_richmedia-welcome.png)
 
 In this menu you can use the arrow keys to navigate the cursor.
 
@@ -42,21 +42,21 @@ We’re just going to create a standard banner in this guide, so in this case, j
 
 Enter the name of the project or just hit enter to use the default, which is the folder name.
 
-![Screenshot install generator](./assets/img/Screenshot_banner-name.png)
+![Screenshot banner name](./assets/img/Screenshot_banner-name.png)
 
 ### Step 3
 
 Select the first unit you would like the generator to create. Use the arrow keys to navigate and hit `Enter`
 when ready.
 
-![Screenshot install generator](./assets/img/Screenshot_select-unit-size.png)
+![Screenshot uniti size](./assets/img/Screenshot_select-unit-size.png)
 
 Enter the directory where you wish the source files to be placed. Just hit enter to use the default, which is something 
 like “./src/{size}x{width}”
 
 Select the type of banner (refer to [types of banners](./banner-types.md) for more info)
 
-![Screenshot install generator](./assets/img/Screenshot_banner-type.png)
+![Screenshot banner type](./assets/img/Screenshot_banner-type.png)
 
 For the purposes of this guide, select `plain`.
 
@@ -76,7 +76,7 @@ directory that you executed the generator on.
 | .prettierrc                  | A configuration file for prettier printer
 | [package.json](./package-json.md)                 | A configuration file for NPM / YARN, one of the most important files in your project.                                                                      |
 
-![Screenshot install generator](./assets/img/Screenshot_project-structure.png)
+![Screenshot project structure](./assets/img/Screenshot_project-structure.png)
 
 To start developing you need to run a [webpack](https://webpack.js.org/) server. Setting up a webpack server is a bit of a 
 hassle that's why the [generator](./generator.md) and the [richmedia-temple-server](./devserver.md) do this for you in conjuction 
@@ -90,29 +90,29 @@ $ `npm run dev` more info [here](./devserver.md).
 
 This will start the server. You’ll see something like this.
 
-![Screenshot install generator](./assets/img/Screenshot_run_dev_server.png)
+![Screenshot install dev server](./assets/img/Screenshot_run_dev_server.png)
 
 Press **N**
 
-![Screenshot install generator](./assets/img/Screenshot_localhost8000.png)
+![Screenshot install localhost](./assets/img/Screenshot_localhost8000.png)
 
 Your primary browser will launch, opening [http://localhost:8000/](http://localhost:8000/)
 
 In your terminal, you’ll be able to see the output of webpack, compiling the source code.
 
-![Screenshot install generator](./assets/img/Screenshot_webpack-compiling.png)
+![Screenshot compiling](./assets/img/Screenshot_webpack-compiling.png)
 
 In your browser, the preview environment will load along with a preview of the compiled version of the banner you just 
 created. The banner should display as a simple unit with a red background.
 
-![Screenshot install generator](./assets/img/Screenshot_banner-browser.png)
+![Screenshot banner](./assets/img/Screenshot_banner-browser.png)
 
 If there are no javascript errors and everything works fine, that’s it!
 
 <div class="container">
     <div class="link__item">
         <a href="./generator.html"><i
-        class="fas fa-long-arrow-alt-right"></i> Richmedia generator</a>
+        class="fas fa-long-arrow-alt-left"></i> Richmedia generator</a>
     </div>
 		<div class="link__item">
         <a href="./adjusting-a-banner.html">Adjust a banner <i

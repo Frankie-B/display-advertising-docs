@@ -2,23 +2,6 @@
 layout: page
 title: Adjust a Banner step by step
 ---
-
-## Contents
-[Viewing banners](#viewing-banners)
-- [Start running the dev environment](#start-running-the-dev-environment)
-- [Stop running the dev environment](#stop-running-the-dev-environment)
-
-[Changing assets](#changing-assets)
-- [Changing copy/images](#changing-copy-images)
-- [Changing styles](#changing-styles)
-- [Changing javascript (code)](#changing-javascript-code)
-
-[Build the banners](#build-the-banners)
-
-[Creating a new size](#creating-a-new-size)
-- [Changing the width and height](#changing-the-width-and-height)
-- [Creating a new build](#creating-a-new-build)
-
 So you get source files from an existing project or you have just finished [creating a new project](getting-started.md) 
 and you want to make changes to it, but you have never worked with the framework before, what do you do?
 
@@ -35,24 +18,24 @@ In your Command Line tool, having the path set to the unzipped folder type:
 
 $ `npm install`
 
-<div style="display: flex; justify-content: center"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609159136/MM_Temple_Server_docs/adjust-banners/npm-install.jpg" /> </div>  
+![Screenshot npm install](./assets/img/npm-install.jpg)
 
 And press `Enter`
 
 > **_NOTE:_** The installation can take a while and you might see some warnings e.g "Found 9 vulnerabilities" etc but that is something to not be worried about.**
 
-<div style="display: flex; justify-content: center"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609159462/MM_Temple_Server_docs/adjust-banners/npm-install-warnings.png" /> </div>  
+![Screenshot install warnings](./assets/img/npm-install-warnings.png)
 
-<div style="display: flex; justify-content: center"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609159568/MM_Temple_Server_docs/adjust-banners/npm-install-sucessful.jpg" /> </div>  
+![Screenshot install succesful](./assets/img/npm-install-sucessful.jpg)
 
 After installation your Command Line tool will look something like this. Besides this you can see that there has added a `node_modules` folder inside the unzipped folder.
-
-<div style="display: flex; justify-content: center"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609159682/MM_Temple_Server_docs/adjust-banners/node_modules.jpg" /> </div>  
+![Screenshot node modules](./assets/img/node_modules.jpg)
 
 ## Viewing banners
 
 ### Start running the dev environment
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609160423/MM_Temple_Server_docs/adjust-banners/example_project.jpg" /> </div>  
+
+![Screenshot example project](./assets/img/example_project.jpg)
 
 *Start your Command Line Tool from the project folder*
 
@@ -60,7 +43,7 @@ After installation your Command Line tool will look something like this. Besides
 
 Open your Powershell from the unzipped folder again if you closed your Command line tool.
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609161155/MM_Temple_Server_docs/adjust-banners/open_powershell.jpg" /> </div>  
+![Screenshot terminal](./assets/img/open_powershell.jpg)
 
 In order to view banners, after installing the packages, in your command line, **while running in the unzipped folder**, type:
 
@@ -150,7 +133,7 @@ i ｢wdm｣: Compiled successfully.
 ```  
 After that, your browser will open a new tab, running on [http://localhost](http://localhost/) + an available port (such as 8000), displaying the banner(s) of your choice.
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609161522/MM_Temple_Server_docs/adjust-banners/banner-preview.jpg" /> </div>  
+![Screenshot preview](./assets/img/banner-preview.jpg)
 
 > **_NOTE:_** In computer networking, **localhost** is a hostname that means this computer. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware.
 
@@ -164,11 +147,11 @@ To stop running the development environment type in your command line tool:
 
 The Command Line tool will then ask "Terminate batch job (Y/N)?" Press Enter on your keyboard
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609161787/MM_Temple_Server_docs/adjust-banners/stop-dev-server.jpg" /> </div>  
+![Screenshot dev server](./assets/img/stop-dev-server.jpg)
 
 Type in **"y"** and press Enter:
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609161922/MM_Temple_Server_docs/adjust-banners/terminate-batch-job.jpg" /> </div>  
+![Screenshot terminate server](./assets/img/terminate-batch-job.jpg)
 
 As you can see you will now head back to the path where you started, the unzipped folder path. And you are able to type in Commands again.
 
@@ -180,15 +163,15 @@ When you are running in the dev environment. Webpack will automatically update t
 
 If you want to change text or images you can easily do so by changing those in the index.html. Use a text editor like Notepad, VSCode, Webstorm .etc to make changes or your own favorite editor.
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609162846/MM_Temple_Server_docs/adjust-banners/changing_copy.jpg" /> </div>  
+![Screenshot changing copy](./assets/img/changing_copy.jpg)
 
 Open the index.html file inside the 300x250 folder with your text editor. If you want to open it with Notepad for example. Right-click on the index.html > in the menu > choose "Open with" > and choose Notepad from the options there.
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609163667/MM_Temple_Server_docs/adjust-banners/open_editor.jpg" /> </div>  
+![Screenshot editor](./assets/img/open_editor.jpg)
 
 In your index.html you will something that looks like this:
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609163826/MM_Temple_Server_docs/adjust-banners/html_image.jpg" /> </div>  
+![Screenshot html](./assets/img/html_image.jpg)
 
 If I amend the copy and the image from this:
 ```html  
@@ -221,7 +204,7 @@ In the css folder there is a style.css file you can make amends to for example, 
   
 #### Shared code  
   
-In the lib folder we put all of the shared code that has been shared throughout all the sizes in the project.  
+In the `lib/shared` folder we put all the shared code that has been shared throughout all the sizes in the project.  
   
 #### Code specific for one size  
   
@@ -257,29 +240,12 @@ Webpack: Finished after 3.962 seconds.
 > **_Note:_** Project has been build. Now take a look in the build directory.  
 
 
-<table style=" text-align:center; width:100%;">      
-  <tr>      
-    <th>Filename</th>      
-    <th>Description</th>  
-  </tr>      
-  <tr>      
-    <td>bundle.zip</td>      
-    <td>all the files below in one zip.</td>    
-  </tr>      
-  <tr>      
-    <td>index.html</td>      
-    <td>html file</td>    
-  </tr>     
-  <tr>      
-    <td>main.js</td>      
-    <td>main javascript file.</td>    
-  </tr>  
-  <tr>      
-    <td>style_v7h2ieE.css</td>      
-    <td>css file, those weird chars in the file name is the hash of the file it self.</td>    
-  </tr>   
-</table>
- 
+| Filename    | Description |
+| ----------- | ----------- |
+| bundle.zip      | all the files below in one zip. |
+| index.html   | html file. |
+| main.js   | main javascript file. |
+| style_v7h2ieE.css   | css file, those weird chars in the file name is the hash of the file it self. |
 
 ## Creating a new size
 
@@ -287,7 +253,7 @@ If you want to create a new size you can simple copy the folder of the size that
 
 Copy paste the folder of the size you want to duplicate to a new size
 
-<div style="display: flex; justify-content: center; width: 300px;"> <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609165035/MM_Temple_Server_docs/adjust-banners/create_new_size.jpg" /> </div>  
+![Screenshot change unit size](./assets/img/create_new_size.jpg)
 
 ### Changing the width and height
 
@@ -297,44 +263,33 @@ First start with changing the size of the banner.
 
 In the folder of the created size, look for the .richmediarc file and open it in your editor.
 
-<div style="display: flex; justify-content: center; width: 300px;"> 
-  <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609165296/MM_Temple_Server_docs/adjust-banners/change_size.jpg" /> 
-</div>  
+![Screenshot change unit size](./assets/img/change_size.jpg)
 
 Change the height from 250 to 600 and save the file.
 
-<div style="display: flex; justify-content: center; width: 300px;"> 
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609165408/MM_Temple_Server_docs/adjust-banners/change_size_rcfile.jpg" /> 
-</div>  
+![Screenshot change unit size rc file](./assets/img/change_size_rcfile.jpg)
 
 In the .css file, which you can find in the folder css, change the height to 600px and save the file.
 
-<div style="display: flex; justify-content: center; width: 300px;"> 
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609165489/MM_Temple_Server_docs/adjust-banners/change_size_css.jpg" />
-</div>  
+![Screenshot change unit size css](./assets/img/change_size_css.jpg)
 
 If you now type "npm run dev" while in the folder of your project, you will see a new option of displaying the 300x600. By pressing `Spacebar` you select the "all" option to preview all banners in the dev environment. And press Enter to build the dev environment.
 
-<div style="display: flex; justify-content: center; width: 300px;">
-  <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609165614/MM_Temple_Server_docs/adjust-banners/change_size_run_dev.jpg" />
-</div>  
+![Screenshot dev server](./assets/img/change_size_run_dev.jpg)
 
 Your browser will open up a new tab an preview a second banner with the size of 300x600.
 
-<div style="display: flex; justify-content: center; width: 300px;">
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609165714/MM_Temple_Server_docs/adjust-banners/change_size_browser.jpg" />
-</div>  
+![Screenshot browser preview](./assets/img/change_size_browser.jpg)
 
 ### Creating a new build
 
 In order to make a correct export to put it online. We are going to make a "build" version out of it. Close the running dev environment by pressing **"ctrl + C"** in your command line tool. Type **"Y"**, and press `Enter`.
 
 Press: `ctrl + C`  
+
 Type:  `Y` and hit `Enter`
 
-<div style="display: flex; justify-content: center; width: 300px;">
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166024/MM_Temple_Server_docs/adjust-banners/change_size_terminate_server.jpg" />
-</div>  
+![Screenshot terminate server](./assets/img/change_size_terminate_server.jpg)
 
 Now type in your command line tool:
 
@@ -342,41 +297,31 @@ $ `npm run build`
 
 If the "build" folder is not empty it will ask if it needs to delete the files that are in. Press **Y** for yes and **N** for no. It's okay to delete them. But if you have a lot of banners, and you don't want to build them all over and over again since it takes time it is better to say **N** (no).
 
-<div style="display: flex; justify-content: center; width: 300px;"> 
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166166/MM_Temple_Server_docs/adjust-banners/change_size_build.jpg" />
-</div>  
+![Screenshot npm run build](./assets/img/change_size_build.jpg)
 
 Choose the banners to build, which are the 300x250 and 300x600. Select with `Spacebar` and press `Enter`.
 
-<div style="display: flex; justify-content: center; width: 300px;">
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166297/MM_Temple_Server_docs/adjust-banners/change_size_select_banners.jpg" />
-</div>  
+![Screenshot select banners](./assets/img/change_size_select_banners.jpg)
 
 You will see that it runs a script here
 
-<div style="display: flex; justify-content: center; width: 300px;">
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166386/MM_Temple_Server_docs/adjust-banners/change_size_build_successful.jpg" />
-</div>  
+![Screenshot build successful](./assets/img/change_size_build_successful.jpg)
 
 Now if you check your build file in the folder
 
-<div style="display: flex; justify-content: center; width: 300px;">
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166479/MM_Temple_Server_docs/adjust-banners/change_size_build_folder.jpg" /> 
-</div>  
+![Screenshot build folder](./assets/img/change_size_build_folder.jpg)
 
 You will see a second folder with the 300x600 in it.
 
-<div style="display: flex; justify-content: center; width: 300px;">
- <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166574/MM_Temple_Server_docs/adjust-banners/change_size_new_unit.jpg" />
-</div>  
+![Screenshot change unit size](./assets/img/change_size_new_unit.jpg)
 
 <div class="container">
     <div class="link__item">
-        <a href="./generator.html"><i
-        class="fas fa-long-arrow-alt-right"></i> Richmedia generator</a>
+        <a href="./gettomg-started.html"><i
+        class="fas fa-long-arrow-alt-left"></i> Getting started</a>
     </div>
 		<div class="link__item">
-        <a href="./adjusting-a-banner.html">Adjust a banner <i
+        <a href="./richmediarc.html">.ricmediarc <i
         class="fas fa-long-arrow-alt-right"></i></a>
     </div>
 </div>

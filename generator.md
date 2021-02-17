@@ -38,14 +38,14 @@ Verify Yeoman is working globally by running the following command
 
 $ `yo --version`
 
-![Screenshot install generator](./assets/img/Screenshot_yo_--version.png)
+![Screenshot check version](./assets/img/Screenshot_yo_--version.png)
 
 _If it shows you the version number, you are ready continue to the next step **Creating a new project**._
 
 <div class="container">
     <div class="link__item">
         <a href="./index.html"><i
-        class="fas fa-long-arrow-alt-right"></i> Home</a>
+        class="fas fa-long-arrow-alt-left"></i> Home</a>
     </div>
 		<div class="link__item">
         <a href="./getting-started.html">Getting started <i
