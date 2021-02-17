@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Adjust a Banner step by step
-page.url: /adjusting-a-banner.md
 ---
 
 ## Contents
@@ -371,11 +370,13 @@ You will see a second folder with the 300x600 in it.
  <img src="https://res.cloudinary.com/frankie-dev/image/upload/v1609166574/MM_Temple_Server_docs/adjust-banners/change_size_new_unit.jpg" />
 </div>  
 
-
-
 <div class="container">
-<div class="link__item"><a href="{{'getting-started' | relative_url}}"><i class="fas fa-long-arrow-alt-left"></i> 
-Getting started</a></div>
-<div class="link__item"><a href="{{'richmediarc' | relative_url }}">.richmediarc <i class="fas 
-fa-long-arrow-alt-right"></i></a></div>
+    <div class="link__item">
+        <a href="./generator.html"><i
+        class="fas fa-long-arrow-alt-right"></i> Richmedia generator</a>
+    </div>
+		<div class="link__item">
+        <a href="./adjusting-a-banner.html">Adjust a banner <i
+        class="fas fa-long-arrow-alt-right"></i></a>
+    </div>
 </div>

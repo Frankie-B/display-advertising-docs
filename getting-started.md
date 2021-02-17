@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Getting started
-
 ---
 ## Creating a new project
 
@@ -110,24 +109,13 @@ created. The banner should display as a simple unit with a red background.
 
 If there are no javascript errors and everything works fine, that’s it!
 
-Note: I looked into how I could achieve the desired look but this is not something that can be achievd purely in 
-
-markdown syntax
-
 <div class="container">
-
-<div class="link__item"><a href="./generator.html"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
-
-generator</a></div>
-
-<div class="link__item"><a href="./adjusting-a-banner.html">Adjust a banner 
-
-step by step <i class="fas fa-long-arrow-alt-right"></i></a></div>
-
+    <div class="link__item">
+        <a href="./generator.html"><i
+        class="fas fa-long-arrow-alt-right"></i> Richmedia generator</a>
+    </div>
+		<div class="link__item">
+        <a href="./adjusting-a-banner.html">Adjust a banner <i
+        class="fas fa-long-arrow-alt-right"></i></a>
+    </div>
 </div>
-
-
-
-
-
-[Screenshot install generator](./generator.md)
