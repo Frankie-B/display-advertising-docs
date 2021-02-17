@@ -119,8 +119,8 @@ footer-link-col: "#404040"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -204,7 +204,7 @@ defaults:
       path: ""
       type: "page"
     values:
-      layout: "post"
+      layout: "page"
       comments: false  # add comments to all blog posts
       social-share: false # add social media sharing buttons to all blog posts
   -

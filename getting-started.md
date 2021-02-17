@@ -110,13 +110,24 @@ created. The banner should display as a simple unit with a red background.
 
 If there are no javascript errors and everything works fine, that’s it!
 
-[comment]: <> (Note: I looked into how I could achieve the desired look but this is not something that can be achievd purely in )
+Note: I looked into how I could achieve the desired look but this is not something that can be achievd purely in 
 
-[comment]: <> (markdown syntax)
+markdown syntax
 
 <div class="container">
-<div class="link__item"><a href="{{'generator.md' | relative_url}}"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
+
+<div class="link__item"><a href="./getting-started.md"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
+
 generator</a></div>
-<div class="link__item"><a href="{{'adjust-a-banner.md' | relative_url}}">Adjust a banner 
+
+<div class="link__item"><a href="./adjusting-a-banner.md">Adjust a banner 
+
 step by step <i class="fas fa-long-arrow-alt-right"></i></a></div>
-</div>
+
+</div
+
+
+
+
+
+[Screenshot install generator](./generator.md)
