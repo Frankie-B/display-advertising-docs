@@ -116,11 +116,11 @@ markdown syntax
 
 <div class="container">
 
-<div class="link__item"><a href="./getting-started.md"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
+<div class="link__item"><a href="./generator.html"><i class="fas fa-long-arrow-alt-left"></i> Richmedia 
 
 generator</a></div>
 
-<div class="link__item"><a href="./adjusting-a-banner.md">Adjust a banner 
+<div class="link__item"><a href="./adjusting-a-banner.html">Adjust a banner 
 
 step by step <i class="fas fa-long-arrow-alt-right"></i></a></div>
 
