@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Getting startedd
+title: Getting started
+page.url: /getting-started.md
 ---
 ## Creating a new project
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Adjust a Banner step by step
+page.url: /adjusting-a-banner.md
 ---
 
 ## Contents

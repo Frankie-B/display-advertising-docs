@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Generator for richmedia
+page.url: /generator.md
 ---
 ## Initial setup
 ### _**Software required**_
@@ -45,6 +46,6 @@ _If it shows you the version number, you are ready continue to the next step **C
 <div class="container">
 <div class="link__item"><a href="https://mediamonks.github.io/display-advertising-docs"><i class="fas 
 fa-long-arrow-alt-left"></i> Home</a></div>
-<div class="link__item"><a href="./getting-started.md">Getting started <i class="fas 
+<div class="link__item"><a href="/getting-started.md">Getting started <i class="fas 
 fa-long-arrow-alt-right"></i></a></div>
 </div>
