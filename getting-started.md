@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting started
-page.url: /getting-started.md
+
 ---
 ## Creating a new project
 
@@ -124,7 +124,7 @@ generator</a></div>
 
 step by step <i class="fas fa-long-arrow-alt-right"></i></a></div>
 
-</div
+</div>
 
 
 
