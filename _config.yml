@@ -14,10 +14,22 @@ author: Mient-Jan Stelling
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Generator: 
-     - Lets get started: "generator"
-  Dev Server: 
-     - Lets get started: "devserver"
+  Home:
+#     - Lets get started: "generator"
+  Richmedia generator:
+#     - Lets get started: "devserver"
+  Getting started:
+
+  Create a new project:
+
+  Adjust a banner:
+
+  .richmediarc:
+
+  Richmedia temple server:
+
+
+
 #
 #     - Learn markdown: "https://www.markdowntutorial.com/"
 #   Author's home: "https://deanattali.com"
