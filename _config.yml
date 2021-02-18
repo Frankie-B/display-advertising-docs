@@ -14,21 +14,17 @@ author: Mient-Jan Stelling
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Home:
+  Home: './index.html'
 #     - Lets get started: "generator"
-  Richmedia generator:
+  Richmedia generator: 'generator'
 #     - Lets get started: "devserver"
-  Getting started:
+  Getting started: 'getting-started'
 
-  Create a new project:
+  Adjust a banner: 'adjust-banner'
 
-  Adjust a banner:
+  .richmediarc: 'richmediarc'
 
-  .richmediarc:
-
-  Richmedia temple server:
-
-
+  Richmedia temple server: 'devserver'
 
 #
 #     - Learn markdown: "https://www.markdowntutorial.com/"
