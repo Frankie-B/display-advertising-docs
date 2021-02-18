@@ -318,8 +318,8 @@ You will see a second folder with the 300x600 in it.
 
 <div class="container">
     <div class="link__item">
-        <a href="./getting-started.html"><i
-        class="fas fa-long-arrow-alt-left"></i> Getting started</a>
+        <a href="./package-json.html"><i
+        class="fas fa-long-arrow-alt-left"></i> Package json</a>
     </div>
 		<div class="link__item">
         <a href="./richmediarc.html">.ricmediarc <i

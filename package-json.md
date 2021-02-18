@@ -60,7 +60,7 @@ Will upload your banners to a preview. The first time you run this command, you 
 
 Under dependencies, you’ll see the 3 default dependencies needed to run dev/build/preview:
 
-```
+```json
 "dependencies": {
     "@mediamonks/henk": "^1.1.1",
     "@mediamonks/richmedia-temple-server": "^6.0",
@@ -70,13 +70,18 @@ Under dependencies, you’ll see the 3 default dependencies needed to run dev/bu
 
 If these are missing, install them via (for example)
 
-```
-npm install @mediamonks/temple
-```
+`npm install @mediamonks/temple`
 
-
-[Go back](./getting-started.md)
-
+<div class="container">
+    <div class="link__item">
+        <a href="./getting-startd.html"><i
+        class="fas fa-long-arrow-alt-left"></i> Getting started</a>
+    </div>
+		<div class="link__item">
+        <a href="./adjusting-a-banner.html">Adjust a banner <i
+        class="fas fa-long-arrow-alt-right"></i></a>
+    </div>
+</div>
 
 
 
